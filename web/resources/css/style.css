@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/02/2016, 02:22:54 PM
+    Author     : MBrandle
+*/
+
+/*diseños Generales*/
+body {
+    background-color: rgb(61, 161, 186);
+}
+
+h3{
+   color:#FFF; 
+   font: 30px arial, sans-serif;
+}
+
+hr { 
+  background-color: #FFF; 
+  height: 3px;
+}
+
+/*Diseños para clases Especiales*/
+#leftColumn {
+    float: left;
+    overflow: hidden;
+    margin-left:2%;
+}
+
+#rightColumn {
+    float: left;
+    overflow: hidden;
+}
+
+.etiquetas{
+   color:#FFF;
+   font: 15px arial, sans-serif;
+}
+
+.botones{
+    color:rgb(61,161,186);
+    font: 15px arial, sans-serif, bold;
+}
+
+.errores{
+    color:red;
+    font: 15px arial, sans-serif;
+}
+
+.nombreUsuario{
+    color:rgb(61, 161, 186);
+   font: 20px arial, sans-serif, bold;
+   margin-left:5%;
+}
+
+/*Diseños de Login*/
+
+.contenderorImagen{
+	margin: 0 auto;
+	padding: 60px 0;
+	text-align: center;
+        alignment-adjust: center;
+}
+
+.container{
+	max-width: 200px;
+	margin: 0 auto;
+	height: 50px;
+	text-align: center;
+        background-color: #2ab485;
+	
+	h1{
+		font-size: 40px;
+		transition-duration: 1s;
+		transition-timing-function: ease-in-put;
+		font-weight: 200;
+                color:#FFF;
+                background-color: #2ab485;
+	}
+        
+        p{
+            font-size: 40px;
+		transition-duration: 1s;
+		transition-timing-function: ease-in-put;
+		font-weight: 200;
+                color:#FFF;
+                background-color: #2ab485;
+        }                
+}
+
